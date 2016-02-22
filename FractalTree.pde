@@ -13,10 +13,7 @@ public void draw()
 	line(320,480,320,350); //380   
 	drawBranches(320, 350, 100, 3*Math.PI/2);  //will add later 
 }
-public void mousePressed()
-{
-	
-} 
+
 public void drawBranches(int x,int y, double branchLength, double angle) 
 {   
 	int r = 151;
